@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <title>NodeJs</title>
+</head>
+
+<body>
+    <div class="grid">
+        <div class="pt-3 col-12 text-primary" style="font-weight: bold;text-align: center;">
+            <h3>Question No. 2</h3>
+        </div>
+        <div class="p-4 col-12 text-primary" style="font-weight: 500;--bs-text-opacity: 25;">
+            Write a JavaScript program that checks whether a given number is prime or not.
+        </div>
+        <div class="p-4 col-12">
+            <div class="mb-1">
+                <label class="form-label">Please Enter Your Test Number Here!</label>
+                <input type="number" class="form-control" id="prime_number" required>
+            </div>
+        </div>
+        <div class="p-4 col-12">
+            <button onclick="isPrimeNumber()" type="button" class="btn btn-primary">Check</button>
+        </div>
+        <div class="p-4 col-12">
+            <div class="alert alert-danger" id="is_not_prime_number" role="alert">
+                <span style="font-weight: 700;">Error :</span> Your Entered Number Is Not A Prime Number!
+            </div>
+            <div class="alert alert-success" id="is_prime_number" role="alert">
+                <span style="font-weight: 700;">Success :</span> Your Entered Number Is A Prime Number!
+            </div>
+            <div class="alert alert-warning" id="is_prime_number_error" role="alert">
+                <span style="font-weight: 700;">Warning :</span> There Is No Entered Number! Please Enter Your Test Number!
+            </div>
+        </div>
+
+        <div class="p-4 col-12">
+            <h2>Here's a list of prime test number:</h2>
+            <p>For example, some prime numbers are:
+
+                2 (the only even prime number)
+                3
+                5
+                7
+                11
+                13
+                17
+                19
+                and so on...</p>
+        </div>
+    </div>
+
+    </div>
+</body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+    crossorigin="anonymous"></script>
+<script type="text/javascript" src="./question-no-2.js"></script>
+
+</html>
